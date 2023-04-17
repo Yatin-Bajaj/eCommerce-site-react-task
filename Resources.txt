@@ -1,0 +1,2 @@
+https://blog.logrocket.com/using-react-toastify-style-toast-messages/
+https://blog.logrocket.com/persist-state-redux-persist-redux-toolkit-react/

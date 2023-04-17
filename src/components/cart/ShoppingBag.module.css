@@ -1,0 +1,49 @@
+.checkoutDetailsContainer {
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(51, 51, 51, 0.2);
+    border-radius: 6px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 300px;
+}
+
+.shopping_bag {
+    margin-top: 10px;
+    display: flex;
+}
+
+.item_image {
+    margin-left: 10px;
+}
+
+.item_details {
+    margin-left: 10px;
+}
+
+.item_details p {
+    margin-top: 0;
+}
+
+.item_quantity_btn {
+    margin: 10px;
+    background-color: transparent;
+    width: fit-content;
+    padding: 0;
+}
+
+.paymentInfoContainer {
+    background-color: white;
+    border: 1.5px solid #dfe1f0;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px 0 rgba(51, 51, 51, 0.2);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.paymentInfoContainer>div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
