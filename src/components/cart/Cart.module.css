@@ -1,0 +1,20 @@
+.cart_container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.cart_container>div {
+    flex-basis: 40%;
+}
+
+.shopping_bag {
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 786px) {
+    .cart_container {
+        flex-direction: row;
+    }
+}
